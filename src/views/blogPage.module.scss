@@ -1,0 +1,118 @@
+.blog {
+    h1 {
+        color: indigo;
+    }
+
+    p {
+        line-height: 2rem;
+     
+        
+   
+    }
+    .like{
+        color: green;
+        cursor: pointer;
+    }
+    .like:hover{
+        color:red;
+    }
+
+    .linkHolder {
+        background-color: #f5f3f3;
+        border: 1px solid #e9e9e9;
+        padding: .5rem;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                float: left;
+                padding: 10px 10px;
+                line-height: 1rem;
+               
+                h4 {
+                    margin: 1px 0 2px 0;
+                    color: #919191;
+                    font-weight: normal;
+                    font-size: .8706em;
+                    line-height: 1;
+                }
+
+                .number {
+                    font-size: 1.3195em;
+                    line-height: 1.2;
+                }
+
+                .secondary {
+                    text-align: center;
+                }
+            }
+
+            li:nth-child(3) {
+                text-align: center;
+            }
+        }
+    }
+
+    .link-holder:first-of-type {
+        display: flex;
+    }
+
+    .back {
+        background-color: #42b883;
+        color: white;
+        margin-top: 5rem;
+        text-decoration: none;
+        padding: 10px 15px;
+        border: 1px solid currentColor;
+        border-radius: 0.5rem;
+        display: inline-block;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: transparent;
+            color: #42b883;
+        }
+    }
+
+    .comments {
+        .avatar {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+    
+            h2 {
+                color: white;
+            }
+        }
+       
+        .reply {
+            font-size: .75rem;
+            color: #42b883;
+            cursor: pointer;
+        }
+
+        .reply:hover {
+            text-decoration: none;
+            color: #5fcbdc;
+        }
+
+        .displayNone {
+            display: none;
+        }
+        .displayBlock{
+            display: block;
+        }
+        
+        span.relativeDate {
+            white-space: nowrap;
+            font-size: medium;
+            color: #919191;
+
+        }
+        
+       
+    }
+    
+}
