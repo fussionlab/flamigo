@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38af4e782b9312f8c66242dd8440cfd7",
+    "revision": "394195ebc35458103817a57f489c9bfa",
     "url": "/flamigo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flamigo/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "52b62c03fd4921a5c3b4",
+    "revision": "53bbc5d745d0bcc7ca59",
     "url": "/flamigo/static/css/main.df2b8ab5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flamigo/static/js/2.8aa545d9.chunk.js.LICENSE"
   },
   {
-    "revision": "52b62c03fd4921a5c3b4",
-    "url": "/flamigo/static/js/main.5e731073.chunk.js"
+    "revision": "53bbc5d745d0bcc7ca59",
+    "url": "/flamigo/static/js/main.bce62d6c.chunk.js"
   },
   {
     "revision": "4d966feb186854ad0d42",

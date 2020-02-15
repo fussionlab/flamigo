@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flamigo/static/css/main.df2b8ab5.chunk.css",
-    "main.js": "/flamigo/static/js/main.5e731073.chunk.js",
-    "main.js.map": "/flamigo/static/js/main.5e731073.chunk.js.map",
+    "main.js": "/flamigo/static/js/main.bce62d6c.chunk.js",
+    "main.js.map": "/flamigo/static/js/main.bce62d6c.chunk.js.map",
     "runtime-main.js": "/flamigo/static/js/runtime-main.c2b0d15f.js",
     "runtime-main.js.map": "/flamigo/static/js/runtime-main.c2b0d15f.js.map",
     "static/css/2.17e5ed98.chunk.css": "/flamigo/static/css/2.17e5ed98.chunk.css",
     "static/js/2.8aa545d9.chunk.js": "/flamigo/static/js/2.8aa545d9.chunk.js",
     "static/js/2.8aa545d9.chunk.js.map": "/flamigo/static/js/2.8aa545d9.chunk.js.map",
     "index.html": "/flamigo/index.html",
-    "precache-manifest.187c4776e8d2a00ac4997dc7649844b2.js": "/flamigo/precache-manifest.187c4776e8d2a00ac4997dc7649844b2.js",
+    "precache-manifest.54e17eda4600173358fa7d0ad8ac094d.js": "/flamigo/precache-manifest.54e17eda4600173358fa7d0ad8ac094d.js",
     "service-worker.js": "/flamigo/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/flamigo/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.df2b8ab5.chunk.css.map": "/flamigo/static/css/main.df2b8ab5.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.8aa545d9.chunk.js",
     "static/css/main.df2b8ab5.chunk.css",
-    "static/js/main.5e731073.chunk.js"
+    "static/js/main.bce62d6c.chunk.js"
   ]
 }
