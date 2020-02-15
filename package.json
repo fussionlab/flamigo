@@ -9,8 +9,8 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    
-    "fontawesome":"^5.11.2",
+    "fontawesome": "^5.11.2",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "node-sass": "^4.13.0",
@@ -27,8 +27,8 @@
   },
   "homepage": "https://fussionlab.github.io/flamigo/",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
