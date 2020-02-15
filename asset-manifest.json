@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/flamigo/static/css/main.df2b8ab5.chunk.css",
+    "main.js": "/flamigo/static/js/main.bb7ed150.chunk.js",
+    "main.js.map": "/flamigo/static/js/main.bb7ed150.chunk.js.map",
+    "runtime-main.js": "/flamigo/static/js/runtime-main.c2b0d15f.js",
+    "runtime-main.js.map": "/flamigo/static/js/runtime-main.c2b0d15f.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/flamigo/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.8aa545d9.chunk.js": "/flamigo/static/js/2.8aa545d9.chunk.js",
+    "static/js/2.8aa545d9.chunk.js.map": "/flamigo/static/js/2.8aa545d9.chunk.js.map",
+    "index.html": "/flamigo/index.html",
+    "precache-manifest.67a43a5ff503e4ee7009606add494c27.js": "/flamigo/precache-manifest.67a43a5ff503e4ee7009606add494c27.js",
+    "service-worker.js": "/flamigo/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/flamigo/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.df2b8ab5.chunk.css.map": "/flamigo/static/css/main.df2b8ab5.chunk.css.map",
+    "static/js/2.8aa545d9.chunk.js.LICENSE": "/flamigo/static/js/2.8aa545d9.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2b0d15f.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.8aa545d9.chunk.js",
+    "static/css/main.df2b8ab5.chunk.css",
+    "static/js/main.bb7ed150.chunk.js"
+  ]
+}
