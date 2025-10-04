@@ -23,24 +23,21 @@ export default class HomePage extends Component{
     
   }
   refreshList = () => {
-    axios
-      .get("https://api.fussionweb.co.in/api/")
+fetch("https://api.fussionweb.co.in/api/")
       .then(res =>{ const todoList = res.data.items;
           this.setState({todoList}); console.log(this.state.todoList)})
       
       .catch(err => console.log(err));
   }
   fetchViewLike =() =>{
-    axios
-      .get("https://api.fussionweb.co.in/api/views/read/")
+fetch("https://api.fussionweb.co.in/api/views/read/")
       .then(res =>{ const ViewLikeList = res.data.items;
           this.setState({ViewLikeList}); console.log(this.state.ViewLikeList) } )
       
       .catch(err => console.log(err));
   }
   fetchComments =()=>{
-    axios
-      .get("https://api.fussionweb.co.in/api/comments/read/")
+fetch("https://api.fussionweb.co.in/api/comments/read/")
       .then(res =>{ const commentsList = res.data.items;
           this.setState({commentsList}) })
       
