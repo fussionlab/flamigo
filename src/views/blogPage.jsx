@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import { Breadcrumb } from "react-bootstrap";
-import axios from "axios";
 import Moment from "react-moment";
 import Style from "./blogPage.module.scss";
 
@@ -33,8 +32,7 @@ export default class Blog extends Component {
     // this.fetchViewsLikes();
   }
   fetchBlogList = () => {
-    axios
-      .get("https://api.fussionweb.co.in/api/" + this.props.match.params.id)
+    fetch("https://api.fussionweb.co.in/api/" + this.props.match.params.id)
       .then(res => {
         const blogList = res.data;
         this.setState({ blogList });
@@ -44,8 +42,7 @@ export default class Blog extends Component {
       .catch(err => console.log(err));
   };
   fetchCommentList = () => {
-    axios
-      .get(
+    fetch(
         "https://api.fussionweb.co.in/api/comments/readonce/?id=" +
           this.props.match.params.id
       )
@@ -58,8 +55,7 @@ export default class Blog extends Component {
       .catch(err => console.log(err));
   };
   fetchReplyList = () => {
-    axios
-      .get(
+    fetch(
         "https://api.fussionweb.co.in/api/reply/readonce/?id=" +
           this.props.match.params.id
       )
